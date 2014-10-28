@@ -1,8 +1,12 @@
-## ElasticSearch Dockerfile
+## ElasticSearch Beta Dockerfile
 
+This repository contains **Dockerfile** of the latest beta release of [ElasticSearch](http://www.elasticsearch.org/) for Docker. 
 
-This repository contains **Dockerfile** of the latest beta release of [ElasticSearch](http://www.elasticsearch.org/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/eliotk/elasticsearch-beta/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
+The corresponding Docker registry repo is here: (https://registry.hub.docker.com/u/eliotk/elasticsearch-beta/)
 
+The Docker registry repo is an automated build repo so that the images will always reflect what's in the Dockerfile.
+
+This is based on the official [Docker elasticsearch repo](https://registry.hub.docker.com/u/dockerfile/elasticsearch/).
 
 ### Base Docker Image
 
